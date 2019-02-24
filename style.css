@@ -1,0 +1,58 @@
+html {
+	font-family: 'Palatino', serif;
+}
+a {
+    color: black;
+    outline: none;
+	text-decoration: none;
+	border-bottom: 1px solid #1a65af;
+}
+a:hover, a:focus {
+	color: #34495e;
+}
+.header {
+	max-width: 1200px;
+	margin: 0 auto;
+	margin-top: 30px;
+}
+.header h1 {
+	font-size: 3.5em;
+}
+.header h3 {
+	font-size: 2em;
+}
+.header p, .header li{
+	font-size: 1.5em;
+}
+.grid {
+	max-width: 1200px;
+	margin: 0 auto;
+}
+.item {
+	max-width: 575px;
+	background-color: #eceff1;
+	margin: 10px;
+	display:inline-block;
+	vertical-align: top;
+}
+.item img {
+	max-width: 100%;
+	display: block;
+	
+}
+.name p {
+	display:inline-block;
+	max-width: 400px;
+	padding-left: 10px;
+	line-height: 1.4;
+}
+.name img {
+	display:inline-block;
+	max-width: 8%;
+	float: right;
+	margin-top: 12px;
+	padding-right: 5px;
+}
+.two { 
+	margin-top: 100px;
+}
